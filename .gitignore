@@ -1,14 +1,16 @@
-# Entornos virtuales
-venv/
-.env/
+# Entorno virtual
+.venv/
 
-# Archivos de Jupyter
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Archivos de entorno
+.env
 
 # Archivos de sistema
 .DS_Store
 Thumbs.db
-
-# __pycache__
-__pycache__/
-*.pyc
